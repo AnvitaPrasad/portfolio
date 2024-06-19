@@ -38,7 +38,7 @@ Hey! I'm Anvita Prasad, a sophomore at IIIT Kancheepuram with a passion for full
 
 ## Installation
 
-There's no installation required to view the portfolio. Simply open the [portfolio website](https://your-portfolio-url.com) in your web browser.
+There's no installation required to view the portfolio. Simply open the [portfolio website](https://6672db8b70b58f26c19eb434--profound-tartufo-aec9f5.netlify.app) in your web browser.
 
 ## Usage
 
