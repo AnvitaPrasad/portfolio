@@ -96,4 +96,28 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    let index = 0;
+    let textIndex = 0;
+    let currentText = "";
+    let letter = "";
+
+    function typing() {
+        if (textIndex < textArray[index].length) {
+            currentText += textArray[index].charAt(textIndex);
+            typingTextElement.textContent = currentText;
+            textIndex++;
+            setTimeout(typing, 50); // Adjust typing speed here (milliseconds)
+        } else {
+            textIndex = 0;
+            index++;
+            if (index >= textArray.length) {
+                index = 0;
+            }
+            currentText = "";
+            setTimeout(typing, 1000); // Delay before starting typing again (milliseconds)
+        }
+    }
+
+    typing();
+
 });
