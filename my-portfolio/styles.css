@@ -319,3 +319,22 @@ body.light-mode {
     height: auto;
     border-radius: 8px; /* Rounded corners if desired */
 }
+
+.loader {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #ffffff;
+    animation: spin 1s infinite linear;
+    margin: 0 auto; /* Center horizontally */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
