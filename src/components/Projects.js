@@ -22,85 +22,57 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Orb": {
+        title: "Orb",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
-      },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
+          "A galactic adventure where we skip the star of the show (pun intended)",
         techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+        link: "https://github.com/AnvitaPrasad/solar-system-minus-sun",
+        open: "https://solarsystemminussun.netlify.app",
+        image: "/assets/solarsystem.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      "CS Club Website": {
+        title: "CS Club Website",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+          "Currently working on an interactive and engaging website for the CS Club at IIITDM Kancheepuram",
+        techStack: "REACT.JS",
+        link: "https://github.com/CSClubIIITDM/club-website",
+        open: "https://github.com/CSClubIIITDM/club-website",
+        image: "/assets/csclub.png"
       },
-      Portfolio: {
-        title: "portfolio.js",
+      "Movie Review Aggregator": {
+        title: "Movie Review Aggregator",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
-      }
+          "A web-based tool designed to aggregate and analyze movie reviews by scraping content from movie review web pages.",
+        techStack: "FIRECRAWL SDK, GEMINI API, PYTHON, FLASK",
+        link: "https://github.com/AnvitaPrasad/Movie-Review-Aggregator",
+        open: "https://github.com/AnvitaPrasad/Movie-Review-Aggregator",
+        image: "/assets/movie.png"
+      },
+      "KanBan Board": {
+        title: "KanBan Board",
+        desc:
+          "A dynamic Kanban board application for streamlined task management",
+        techStack: "REACT.JS",
+        link: "https://github.com/AnvitaPrasad/Kanban-board",
+        open: "https://anvitas-kanban-board.netlify.app",
+        image: "/assets/kanban.png"
+      },
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Sentiment Analysis of Product Reviews": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "A web-based tool that performs sentiment analysis on product reviews",
+        techStack: "Firecrawl SDK, Gemini API, python, flask",
+        link: "https://github.com/AnvitaPrasad/Sentiment-analysis-of-product-reviews",
+        open: "https://github.com/AnvitaPrasad/Sentiment-analysis-of-product-reviews"
       },
-      "Adam A.I.": {
+      "Blackjack": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
+          "A simple and engaging Blackjack game implementation that lets players test their luck and strategy against the dealer.",
         techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
-      },
-      "Distributed Logging and Monitoring System": {
-        desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
-      },
-      "Odin Bot": {
-        desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
-      },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+        link: "https://github.com/AnvitaPrasad/Blackjack",
+        open: "https://github.com/AnvitaPrasad/Blackjack"
       }
     };
 
